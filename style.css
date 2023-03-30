@@ -79,7 +79,7 @@ border: none;
     background-color: white;
 }
 .main-body{
-    padding: 8.5rem 7rem;
+    padding: 8.5rem 6rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -92,7 +92,7 @@ display: flex;
 width: 100%;
 }
 .text-area-body-sec{
-    width: 46%;
+    width: 52.5%;
 display: flex;
 flex-direction: column;
 gap: 4rem;
@@ -107,6 +107,7 @@ gap: 4rem;
     font-weight: 600;
     margin: 0;
     margin-top: 3rem;
+    width: 50rem;
 }
 .boldtext-area-strong{
     font-size: 3.6rem;
@@ -130,7 +131,7 @@ gap: 4rem;
     font-weight: 600;
 }
 .img-area-body-sec{
-    width: 54%;
+    width: 47.5%;
 }
 .img-area{
     width: 100%;
@@ -148,18 +149,147 @@ gap: 4rem;
     font-weight: 600;
     text-align: center;
 }
-.body-instraction-part{
 
-}
 .body-instraction-con{
-
+display: flex;
+gap: 10.4rem;
+padding: 5rem  0;
 }
 .instraction-fristclass{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5.6rem;
 
 }
 .instraction-one{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.instra-img{
+    width: 5rem;
+    height: 5rem;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instraction-text{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    /*  */
+}
+
+.instra-text-bold{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.instra-text-thin{
+    font-size: .6rem;
+    font-weight: 600;
+}
+.instraction-secondclass{
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+}
+.one{
+    background-color: #039AFF;
+}
+.two{
+background-color: #DB47BD;
+}
+.three{
+background-color: #2CDBFF;
+}
+.four{
+background-color: #7928CA;
+}
+.discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0 8rem 0;
+    
+    gap: 0.7rem;
+}
+.dis-head{
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 0;
+}
+.discription-text{
+    display: flex;
+    font-size: .8rem;
+    font-weight: 700;
+    gap: 4rem;
+
+}
+.dis-left{
+    width: 27.8rem;
+}
+.dis-right{
+    width: 27.8rem;
+}
+.table{
+    width: 100%;
+    border: 1px solid #C9C9C9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* gap: 8rem; */
+   padding: 2rem;
+   height: 3rem;
+}
+.table-content{
+/* padding: 1rem; */
+text-align: center;
+line-height: 2rem;
+padding: 0 4rem;
+}
+.table-number{
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin: 0;
+}
+.table-text{
+    font-size: 1.4rem;
+    color: #848484;
+    margin: 0;
+}
+.bord{
+    border-right: 1px solid #C9C9C9;
+}
+.img-des{
+    /* align-items: center; */
+    width: 2rem;
+    
+    
+}
+.img-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.img-body-head{
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin: 0;
+}
+.img-body-para{
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0 18rem;
+    margin: 0;
+}
+.space{
+    width: 100%;
+    height: 17rem;
 }
